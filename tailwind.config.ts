@@ -118,6 +118,10 @@ export default {
 						transform: 'translateY(0)',
 						opacity: '1'
 					}
+				},
+				'caret-blink': {
+					'0%, 70%, 100%': { opacity: '1' },
+					'20%, 50%': { opacity: '0' }
 				}
 			},
 			animation: {
@@ -125,7 +129,8 @@ export default {
 				'accordion-up': 'accordion-up 0.2s ease-out',
 				'fade-in': 'fade-in 0.3s ease-out',
 				'scale-in': 'scale-in 0.2s ease-out',
-				'slide-up': 'slide-up 0.4s ease-out'
+				'slide-up': 'slide-up 0.4s ease-out',
+				'caret-blink': 'caret-blink 1.25s ease-out infinite'
 			}
 		}
 	},

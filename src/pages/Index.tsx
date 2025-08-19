@@ -61,10 +61,10 @@ const Index = () => {
               <h1 className="text-3xl font-heading font-bold text-secondary">TOKKA</h1>
             </div>
             <nav className="hidden md:flex space-x-8">
-              <a href="#menu" className="text-secondary hover:text-primary transition-colors">Меню</a>
-              <a href="#delivery" className="text-secondary hover:text-primary transition-colors">Доставка</a>
-              <a href="#about" className="text-secondary hover:text-primary transition-colors">О ресторане</a>
-              <a href="#contacts" className="text-secondary hover:text-primary transition-colors">Контакты</a>
+              <a href="/menu" className="text-secondary hover:text-primary transition-colors">Меню</a>
+              <a href="/delivery" className="text-secondary hover:text-primary transition-colors">Доставка</a>
+              <a href="/about" className="text-secondary hover:text-primary transition-colors">О ресторане</a>
+              <a href="/contacts" className="text-secondary hover:text-primary transition-colors">Контакты</a>
             </nav>
             <Button className="bg-primary text-primary-foreground hover:bg-gold-600 transition-colors">
               <Icon name="ShoppingCart" size={20} className="mr-2" />
